@@ -1,0 +1,501 @@
+
+<!-- saved from url=(0023)https://qc8opc.csb.app/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+  #btn {
+    background-color: gray;
+    color: orange;
+    font-family: monospace;
+  }
+  #title {
+    background-color: gray;
+    color: orange;
+    font-family: monospace;
+    font-size: 40px;
+    position: absolute;
+    left: 45%;
+  }
+  #box {
+    border: 1px solid rgb(68, 63, 63);
+    border-radius: 20px;
+    background-color: rgb(68, 63, 63);
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 38%;
+    top: 20%;
+  }
+  #input-new {
+    border: 1px solid rgb(68, 63, 63);
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: orange;
+    height: 30px;
+    width: 260px;
+    font-family: monospace;
+    position: absolute;
+    top: 32%;
+    left: 39%;
+  }
+  #input-old {
+    border: 1px solid rgb(68, 63, 63);
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: orange;
+    height: 30px;
+    width: 260px;
+    font-family: monospace;
+    position: absolute;
+    top: 26%;
+    left: 39%;
+  }
+  #number-btn1 {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 42%;
+    left: 39%;
+  }
+  #number-btn2 {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 42%;
+    left: 41%;
+  }
+  #number-btn3 {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 42%;
+    left: 43%;
+  }
+  #number-btn4 {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 46%;
+    left: 39%;
+  }
+  #number-btn5 {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 46%;
+    left: 41%;
+  }
+  #number-btn6 {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 46%;
+    left: 43%;
+  }
+  #number-btn7 {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+  }
+  #number-btn8 {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 41%;
+  }
+  #number-btn9 {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+  }
+  #number-btn0 {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 30px;
+    width: 163px;
+    position: absolute;
+    top: 54%;
+    left: 39%;
+  }
+  #btn-plus {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 42%;
+    left: 45%;
+  }
+  #btn-minus {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 46%;
+    left: 45%;
+  }
+  #btn-divide {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+  }
+  #btn-multiply {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 54%;
+    left: 45%;
+  }
+  #btn-enter {
+    border: 1px solid rgb(161, 152, 152);
+    border-radius: 20px;
+    background-color: rgb(161, 152, 152);
+    color: orange;
+    font-family: monospace;
+    height: 156px;
+    width: 40px;
+    position: absolute;
+    top: 42%;
+    left: 47%;
+  }
+  body {
+    background-color: gray;
+  }
+</style>
+
+
+
+  
+    <script type="text/javascript" src="./Calculator Online!_files/sse-hooks.f648b14c15c640a14a557113a991cb8d.js.ladda ned"></script>
+    <script type="text/javascript" src="./Calculator Online!_files/banner.be879265d.js.ladda ned"></script>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator Online!</title>
+  </head>
+  <body>
+    <h1 id="title">Calculator!</h1>
+    <h1 id="box"></h1>
+    <input id="input-old" type="text">
+    <input id="input-new" type="text">
+    <button id="number-btn1" onclick="select(1)">1</button>
+    <button id="number-btn2" onclick="select(2)">2</button>
+    <button id="number-btn3" onclick="select(3)">3</button>
+    <button id="number-btn4" onclick="select(4)">4</button>
+    <button id="number-btn5" onclick="select(5)">5</button>
+    <button id="number-btn6" onclick="select(6)">6</button>
+    <button id="number-btn7" onclick="select(7)">7</button>
+    <button id="number-btn8" onclick="select(8)">8</button>
+    <button id="number-btn9" onclick="select(9)">9</button>
+    <button id="number-btn0" onclick="select(0)">0</button>
+    <button id="btn-plus" onclick="plus()">+</button>
+    <button id="btn-minus" onclick="minus()">-</button>
+    <button id="btn-divide" onclick="divide()">/</button>
+    <button id="btn-multiply" onclick="multiply()">*</button>
+    <button id="btn-enter" onclick="results()">=</button>
+    <script crossorigin="" type="text/javascript" src="./Calculator Online!_files/watermark-button.be960f43b.js.ladda ned"></script>
+  
+
+<script>
+  var operator;
+  function select(number) {
+    str = document.getElementById("input-new").value;
+    newstr = str + number;
+    document.getElementById("input-new").value = newstr;
+    console.log(document.getElementById("input-new").value);
+  }
+  function minus() {
+    operator = "-";
+    console.log("Minus Activated");
+    str = document.getElementById("input-new");
+    old = document.getElementById("input-old");
+    old.value = str.value;
+    str.value = "";
+  }
+  function plus() {
+    operator = "+";
+    console.log("Plus Activated");
+    str = document.getElementById("input-new");
+    old = document.getElementById("input-old");
+    old.value = str.value;
+    str.value = "";
+  }
+  function divide() {
+    operator = "/";
+    console.log("Divide Activated");
+    str = document.getElementById("input-new");
+    old = document.getElementById("input-old");
+    old.value = str.value;
+    str.value = "";
+  }
+  function multiply() {
+    operator = "*";
+    console.log("Multiply Activated");
+    str = document.getElementById("input-new");
+    old = document.getElementById("input-old");
+    old.value = str.value;
+    str.value = "";
+  }
+  function results() {
+    first = document.getElementById("input-old");
+    second = document.getElementById("input-new");
+    if (operator == "/") {
+      results = Number(first.value) / Number(second.value);
+      neww = "" + first.value + " / " + second.value + " = " + results;
+      console.log(neww);
+      first.value = "";
+      second.value = "";
+      second.value = neww;
+      navigator.clipboard.writeText(results);
+    }
+    if (operator == "*") {
+      results = Number(first.value) * Number(second.value);
+      neww = "" + first.value + " * " + second.value + " = " + results;
+      console.log(neww);
+      first.value = "";
+      second.value = "";
+      second.value = neww;
+      navigator.clipboard.writeText(neww);
+    }
+    if (operator == "+") {
+      results = Number(first.value) + Number(second.value);
+      neww = "" + first.value + " + " + second.value + " = " + results;
+      console.log(neww);
+      first.value = "";
+      second.value = "";
+      second.value = neww;
+      navigator.clipboard.writeText(neww);
+    }
+    if (operator == "-") {
+      results = Number(first.value) - Number(second.value);
+      neww = "" + first.value + " - " + second.value + " = " + results;
+      console.log(neww);
+      first.value = "";
+      second.value = "";
+      second.value = neww;
+      navigator.clipboard.writeText(neww);
+    }
+  }
+  window.onkeydown = function (gfg) {
+    if (gfg.key == "c") {
+      first = document.getElementById("input-old");
+      second = document.getElementById("input-new");
+      second.value = "";
+      first.value = "";
+    }
+    if (gfg.key == "1") {
+      str = document.getElementById("input-new").value;
+      newstr = str + 1;
+      document.getElementById("input-new").value = newstr;
+      console.log(document.getElementById("input-new").value);
+    }
+    if (gfg.key == "2") {
+      str = document.getElementById("input-new").value;
+      newstr = str + 2;
+      document.getElementById("input-new").value = newstr;
+      console.log(document.getElementById("input-new").value);
+    }
+    if (gfg.key == "3") {
+      str = document.getElementById("input-new").value;
+      newstr = str + 3;
+      document.getElementById("input-new").value = newstr;
+      console.log(document.getElementById("input-new").value);
+    }
+    if (gfg.key == "4") {
+      str = document.getElementById("input-new").value;
+      newstr = str + 4;
+      document.getElementById("input-new").value = newstr;
+      console.log(document.getElementById("input-new").value);
+    }
+    if (gfg.key == "5") {
+      str = document.getElementById("input-new").value;
+      newstr = str + 5;
+      document.getElementById("input-new").value = newstr;
+      console.log(document.getElementById("input-new").value);
+    }
+    if (gfg.key == "6") {
+      str = document.getElementById("input-new").value;
+      newstr = str + 6;
+      document.getElementById("input-new").value = newstr;
+      console.log(document.getElementById("input-new").value);
+    }
+    if (gfg.key == "7") {
+      str = document.getElementById("input-new").value;
+      newstr = str + 7;
+      document.getElementById("input-new").value = newstr;
+      console.log(document.getElementById("input-new").value);
+    }
+    if (gfg.key == "8") {
+      str = document.getElementById("input-new").value;
+      newstr = str + 8;
+      document.getElementById("input-new").value = newstr;
+      console.log(document.getElementById("input-new").value);
+    }
+    if (gfg.key == "9") {
+      str = document.getElementById("input-new").value;
+      newstr = str + 9;
+      document.getElementById("input-new").value = newstr;
+      console.log(document.getElementById("input-new").value);
+    }
+    if (gfg.key == "0") {
+      str = document.getElementById("input-new").value;
+      newstr = str + 0;
+      document.getElementById("input-new").value = newstr;
+      console.log(document.getElementById("input-new").value);
+    }
+    if (gfg.key == "+") {
+      operator = "+";
+      console.log("Plus Activated");
+      str = document.getElementById("input-new");
+      old = document.getElementById("input-old");
+      old.value = str.value;
+      str.value = "";
+    }
+    if (gfg.key == "-") {
+      operator = "-";
+      console.log("Minus Activated");
+      str = document.getElementById("input-new");
+      old = document.getElementById("input-old");
+      old.value = str.value;
+      str.value = "";
+    }
+    if (gfg.key == "/") {
+      operator = "/";
+      console.log("Divide Activated");
+      str = document.getElementById("input-new");
+      old = document.getElementById("input-old");
+      old.value = str.value;
+      str.value = "";
+    }
+    if (gfg.key == "*") {
+      operator = "*";
+      console.log("Multiply Activated");
+      str = document.getElementById("input-new");
+      old = document.getElementById("input-old");
+      old.value = str.value;
+      str.value = "";
+    }
+    if (gfg.key == "Enter") {
+      first = document.getElementById("input-old");
+      second = document.getElementById("input-new");
+      if (operator == "/") {
+        results = Number(first.value) / Number(second.value);
+        neww = "" + first.value + " / " + second.value + " = " + results;
+        console.log(neww);
+        first.value = "";
+        second.value = "";
+        second.value = neww;
+        navigator.clipboard.writeText(results);
+      }
+      if (operator == "*") {
+        results = Number(first.value) * Number(second.value);
+        neww = "" + first.value + " * " + second.value + " = " + results;
+        console.log(neww);
+        first.value = "";
+        second.value = "";
+        second.value = neww;
+        navigator.clipboard.writeText(neww);
+      }
+      if (operator == "+") {
+        results = Number(first.value) + Number(second.value);
+        neww = "" + first.value + " + " + second.value + " = " + results;
+        console.log(neww);
+        first.value = "";
+        second.value = "";
+        second.value = neww;
+        navigator.clipboard.writeText(neww);
+      }
+      if (operator == "-") {
+        results = Number(first.value) - Number(second.value);
+        neww = "" + first.value + " - " + second.value + " = " + results;
+        console.log(neww);
+        first.value = "";
+        second.value = "";
+        second.value = neww;
+        navigator.clipboard.writeText(neww);
+      }
+    }
+  };
+</script>
+<iframe id="sb__open-sandbox90" style="
+      position: fixed;
+      margin: 0;
+      padding: 0;
+      bottom: 16px;
+      right: 16px;
+      border: none;
+      width: 118px;
+      height: 36px;
+      z-index: 9999999999999;
+    " src="./Calculator Online!_files/saved_resource.html"></iframe></body></html>
